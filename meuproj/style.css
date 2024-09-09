@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+
+
+}
+
+header {
+    background-color: #2ee1eede; /* Verde-água */
+    color: white;
+
+
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.mapBox{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    align-items: center;
+}
+
+.a{
+
+        width: 600px;
+        padding: 10px;
+        border: 1px solid transparent; 
+        background-color: transparent; 
+        text-align: left; 
+        letter-spacing: 0.5px;
+}
